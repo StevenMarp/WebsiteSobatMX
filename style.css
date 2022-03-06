@@ -1,0 +1,63 @@
+/* Navbar */
+.navbar-brand{
+    font-family:viga;
+    font-size: 18px;
+}
+
+/* LOGO1*/
+body{
+    /* background-image: url(background/background.svg); */
+    background-size: cover;
+}
+.sobat100{
+    background-image: url(logo/Sobat100.png);
+}
+
+
+/* Jumbotron Desktop*/
+
+.jumbotron {
+    background-image: url(image/jumbotron.png);
+    background-size: cover;
+    height: 750px;
+    font-family: inter;
+    color: #205C84;
+
+    /* untuk membuat versi mobile dan desktop seirama */
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    
+
+}
+
+/* Utility */
+.tombol {
+    /* text-transform: uppercase; */
+    border-radius: 40px;
+}
+
+
+
+/* DESKTOP VERSION https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints */
+
+@media (min-width: 992px) {
+    .nav-link{
+        /* text-transform: uppercase; */
+        margin-right: 30px;
+    
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+
+
+}
